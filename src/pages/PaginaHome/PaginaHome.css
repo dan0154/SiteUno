@@ -1,0 +1,18 @@
+.alignHome{
+    display: flex;
+    justify-content: center;
+
+}
+
+.homeContent {
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    height: 50vh;
+    align-items: center;
+    justify-items: center;
+}
+
+.homeTextBottom {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
