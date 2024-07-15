@@ -1,5 +1,11 @@
-export default function PaginaSobre(){
-    return(
-        <h1>Sobre</h1>
+import NavBar from "../../components/NavBar/NavBar";
+
+export default function PaginaSobre() {
+    return (
+        <div>
+            <NavBar />
+            <h1>Sobre</h1>
+            
+        </div>
     )
 }

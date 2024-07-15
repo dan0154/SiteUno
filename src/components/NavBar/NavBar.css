@@ -1,0 +1,22 @@
+.NavBar{
+    display: flex;
+    justify-content: space-around;
+    height: 6vh;
+    background-color: red;
+    align-items: center;
+}
+
+.NavBar img{
+    height: 80%;
+}
+
+.NavList{
+    list-style: none;
+    display: flex;
+}
+
+.NavList li a{
+    margin-left: 32px;
+    text-decoration: none;
+    color: white;
+}

@@ -1,5 +1,12 @@
+import NavBar from "../../components/NavBar/NavBar";
+
 export default function PaginaComoJogar(){
     return(
-        <h1>ComoJogar</h1>
+        <div>
+            <NavBar />
+            <h1>ComoJogar</h1>
+            
+        </div>
+        
     )
 }

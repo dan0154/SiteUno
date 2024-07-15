@@ -1,5 +1,11 @@
+import NavBar from "../../components/NavBar/NavBar";
+
 export default function PaginaHome(){
     return(
-        <h1>Home</h1>
+        <div>
+            <NavBar />
+            <h1>Home</h1>
+        </div>
+        
     )
 }
