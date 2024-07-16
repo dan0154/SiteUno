@@ -1,0 +1,7 @@
+.carta{
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    text-align: center;
+
+}
