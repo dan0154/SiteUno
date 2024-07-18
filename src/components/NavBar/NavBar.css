@@ -16,7 +16,29 @@
 }
 
 .NavList li a{
-    margin-left: 32px;
+    padding: 20px;
     text-decoration: none;
+    font-weight:bold;
     color: white;
+}
+
+.li1:hover{
+    transform: scale(1.1, 1.1);
+    transition: 100ms linear;
+}
+
+.li2:hover{
+    transform: scale(1.1, 1.1);
+    transition: 100ms linear;
+    
+}
+
+.li3:hover{
+    transform: scale(1.1, 1.1);
+    transition: 100ms linear;
+}
+
+.li4:hover{
+    transform: scale(1.1, 1.1);
+    transition: 100ms linear;
 }
