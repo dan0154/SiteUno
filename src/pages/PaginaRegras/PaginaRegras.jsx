@@ -14,6 +14,10 @@ export default function PaginaRegras() {
                 <CartaInfo img={"src/assets/verdeReverter.png"} nome={"Inverter"} texto={"Faz comprar 4"} />
                 <CartaInfo img={"src/assets/amareloBloquear.png"} nome={"Bloquear"} texto={"Faz comprar 4"} />
             </div>
+            <h2>Penalidades</h2>
+            <p><strong>1.</strong> Caso o jogador fique com uma carta na mão e não grite UNO, ele deve comprar 2 cartas. Entretanto, é necessário que alguém perceba e acuse antes do próximo jogador começar a jogada</p>
+            <p><strong>2.</strong> Caso o jogador jogue uma carta errada no monte e alguém perceba, ele deve retirar a carta e comprar duas do monte</p>
+            <p><strong>3.</strong> Jogadores que derem palpites devem comprar duas cartas do monte</p>
 
         </div>
 
