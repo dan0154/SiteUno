@@ -3,5 +3,21 @@
     flex-direction: column;
     width: 10vw;
     text-align: center;
-
 }
+
+.carta p{
+    opacity: 0;
+    transform: scale(0,0);
+}
+
+.carta:hover{
+    margin-top: 5vh;
+    transform: scale(1.1, 1.1);
+    transition: 100ms linear;
+}
+.carta:hover p{
+    opacity: 100;
+    position: relative;
+    transform: scale(1,1);
+}
+

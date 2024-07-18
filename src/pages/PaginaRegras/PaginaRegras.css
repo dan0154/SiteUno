@@ -1,6 +1,29 @@
+.regrasContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.penalidades{
+    width: 50vw;
+    text-align: center;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+}
+
 .cartasConjunto{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 30vw
+    gap: 2vw;
 }
+
+
+
+.parteDasCartas{
+    text-align: center;
+}
+
+
