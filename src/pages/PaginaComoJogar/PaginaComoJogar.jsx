@@ -14,7 +14,7 @@ export default function PaginaComoJogar() {
             <h2>UNO!!</h2>
             <p>Se um jogador tiver apenas uma carta disponível, ele DEVE falar UNO.</p>
             <h2>Fim</h2>
-            <p>A partida acaba quando um jogador se livra de todas as suas cartas. </p>
+            <p>A partida acaba quando um jogador se livra de todas as suas cartas. Ele é declarado, então, o vencedor.</p>
         </div>
 
     )

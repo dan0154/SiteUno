@@ -8,6 +8,7 @@
 .carta p{
     opacity: 0;
     transform: scale(0,0);
+    font-size: 15px;
 }
 
 .carta:hover{

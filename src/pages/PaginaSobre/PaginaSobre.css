@@ -1,0 +1,40 @@
+.aboutContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.aboutText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 60vw;
+    margin-top: -5vh;
+}
+
+.aboutText h1{
+    font-size: 60px;
+    margin: 30px;
+}
+.aboutText h2{
+    font-size: 35px;
+    margin: 25px;
+}
+
+.aboutText p{
+    text-align: center;
+    width: 85%;
+}
+
+.popularizacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popularizacao img{
+    height: 10vh;
+    margin-top: 10px;
+}
