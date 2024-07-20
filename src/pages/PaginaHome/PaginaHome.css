@@ -1,7 +1,9 @@
 .alignHome{
     display: flex;
     justify-content: center;
-
+    width: 90vw;
+    left: 10vw;
+    position: relative;
 }
 
 .homeContent {
@@ -12,7 +14,21 @@
     justify-items: center;
 }
 
+.unoHomeLogo{
+    height: 20vw;
+}
+
 .homeTextBottom {
     grid-column-start: 1;
     grid-column-end: 3;
+}
+
+.motivosList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.motivosList li{
+    width: 31%;
+    list-style: none;
 }

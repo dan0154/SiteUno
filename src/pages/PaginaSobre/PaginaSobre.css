@@ -4,12 +4,13 @@
     align-items: center;
     overflow: hidden;
     position: relative;
-    left: 10vw;
-    width: 90vw;
+    top: 2vw;
+    left: 15vw;
+    width: 80vw;
 }
 
 .aboutContent img{
-    width: 90vw;
+    width: 80vw;
 }
 
 .aboutText{
@@ -39,6 +40,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: inherit;
 }
 
 .popularizacao img{

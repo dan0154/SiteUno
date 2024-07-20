@@ -19,7 +19,8 @@
     display: flex;
     flex-direction: column;
     list-style: none;
-    display: flex;
+    height: 50vh;
+    justify-content: space-between;
 }
 
 .NavList li a{
