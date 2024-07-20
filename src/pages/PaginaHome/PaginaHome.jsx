@@ -17,9 +17,6 @@ export default function PaginaHome() {
                     <div className="homeTextBottom">
                         <h2>Por que escolher UNO?</h2>
                         <ul className="motivosList">
-{/*                             <li>Divertido para Todos: Ideal para festas, reuniões em família ou uma noite descontraída com amigos</li>
-                            <li>Fácil de Aprender: Perfeito para iniciantes e jogadores experientes.</li>
-                            <li>Momentos Inesquecíveis: Crie memórias incríveis enquanto se diverte!</li> */}
                             <li>
                                 <CartaoMotivo img={"https://cdn-icons-png.flaticon.com/512/415/415552.png"} titulo={"Divertido para Todos"} texto={"Ideal para festas, reuniões em família ou uma noite descontraída com amigos"}/>
                             </li>
