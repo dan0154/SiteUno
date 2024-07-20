@@ -1,5 +1,6 @@
 import NavBar from "../../components/NavBar/NavBar";
 import "./PaginaSobre.css"
+import VariacaoUno from "./VariacaoUno/VariacaoUno";
 
 export default function PaginaSobre() {
     return (
@@ -18,7 +19,10 @@ export default function PaginaSobre() {
                         <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Mattel_logo.svg" />
                     </div>
                     <h2>Variações</h2>
-                    <p>Como parte de sua longevidade ao longo desses mais de 50 anos, UNO conta com uma enorme quantidade de variações. Veja a seguir algumas delas.</p>
+                    <p>Como parte de sua longevidade ao longo desses mais de 50 anos, UNO conta com uma enorme quantidade de variações e parcerias. Veja a seguir algumas delas.</p>
+                    <VariacaoUno imagem={"https://images.mattel.net/image/upload/w_720,c_scale/shop-us-prod/files/ujrclqqxjqbg4gkrmwax_56474f55-7e7d-4650-bdc8-5e4fa7d1590f.png"} titulo={"UNO Show'em no Mercy"} texto={"UNO Show 'em No Mercy é a versão mais implacável do clássico UNO! Com penalidades, regras inovadoras e a chance de eliminar todos os adversários, este jogo oferece uma experiência intensa. Ganhe livrando-se de todas as cartas ou derrotando os oponentes"}/>
+                    <VariacaoUno imagem={"https://images.mattel.net/image/upload/w_720,c_scale/shop-us-prod/files/n7lscejnceunrwkyvmsi_89dfd859-2673-48df-937e-004873575f70.jpg"} titulo={"UNO Friends"} texto={'O jogo UNO reúne amigos com um baralho inspirado no programa de televisão Friends que apresenta os personagens favoritos da série. Os jogadores ainda tentam combinar cores e números e vão querer tirar a carta "Aquele em que você compra" com uma regra especial que fará com que os oponentes saquem até encontrarem o amigo certo. Quando a última carta estiver acabando, os jogadores não dizem "Vem sempre aqui?", eles gritam "UNO!" É um ótimo presente para os fãs de Friends'}/>
+                    <VariacaoUno imagem={"https://images.mattel.net/image/upload/w_720,c_scale/shop-us-prod/files/cesktr9skpzxp6op2ght_5469d06c-2398-492d-9e06-8cf59ec2b8b2.jpg"} titulo={"UNO Stacko"} texto={'UNO Stacko combina a habilidade de empilhar com a diversão do UNO. Oferece entretenimento familiar com comandos nos blocos: montar por cor ou número e retirá-los por comando. A dinâmica é evitar que a torre caia, proporcionando uma prova à medida que a pilha aumenta'}/>
                 </div>
 
             </div>
