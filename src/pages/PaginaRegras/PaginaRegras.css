@@ -30,3 +30,37 @@
 }
 
 
+@media (max-width: 800px) {
+    .regrasContent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width: 100vw;
+        left: 0vw;
+
+        top: 10vh;
+    }
+    
+    .penalidades{
+        width: 60vw;
+        text-align: center;
+        margin-bottom: 5vh;
+        margin-top: 2vh;
+    }
+    
+    .cartasConjunto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2vw;
+    }
+    
+    
+    
+    .parteDasCartas{
+        text-align: center;
+    }
+    
+}

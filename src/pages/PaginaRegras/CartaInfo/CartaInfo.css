@@ -22,3 +22,30 @@
     transform: scale(1,1);
 }
 
+
+@media (max-width: 800px) {
+    .carta{
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        text-align: center;
+    }
+    
+    .carta p{
+        opacity: 100;
+        transform: scale(1,1);
+        font-size: 15px;
+    }
+    
+    .carta:hover{
+        margin-top: 0vh;
+        transform: scale(1, 1);
+        transition: 100ms linear;
+    }
+    .carta:hover p{
+        opacity: 100;
+        position: relative;
+        transform: scale(1,1);
+    }
+    
+}

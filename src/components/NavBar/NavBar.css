@@ -11,11 +11,15 @@
     position: fixed;
 }
 
-.NavBar img{
+.NavBarTop{
+    text-align: center;
+}
+
+.NavBarTop img{
     width: 80%;
 }
 
-.NavList{
+#NavList{
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -23,11 +27,23 @@
     justify-content: space-between;
 }
 
-.NavList li a{
+.mobile-menu{
+    display: none;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+}
+
+#NavList li a{
     padding: 20px;
     text-decoration: none;
     font-weight:bold;
     color: white;
+    
 }
 
 .li1:hover{
@@ -55,13 +71,61 @@
     .NavBar{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-around;
-        height: 100vh;
-        width: 10vw;
+        height: 10vh;
+        width: 100vw;
         background-color: red;
         align-items: center;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        position: fixed;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        position: absolute;
     }
+
+    .NavBarTop{
+        width: 100vw;
+        height: 10vh;
+        text-align: unset;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .NavBarTop img{
+        width: auto;
+        height: 70%;
+    }
+
+    #NavList{
+        display: none;
+        flex-direction: column;
+        background-color: red;
+        list-style: none;
+        height: 90vh;
+        justify-content:space-around;
+        align-items: center;
+        overflow-x: hidden;
+        width: 50vw;
+        z-index: 1;
+        position: relative;
+        left: 25vw;
+    }
+    #NavList.open{
+        display: flex;
+
+    }
+
+
+    .mobile-menu{
+        display:unset;
+    }
+    
+    .mobile-menu div{
+        width: 32px;
+        height: 2px;
+        background-color: #fff;
+        margin: 8px;
+    }
+
+    
 }
